@@ -9,7 +9,7 @@ class Face {
         const Eye& getLeftEye() const;
         const Eye& getRightEye() const;
         void setDetected(bool value);
-
+        
     private:
         Eye LeftEye;
         Eye RightEye;
