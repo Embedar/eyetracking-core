@@ -20,3 +20,11 @@ bool Image::isValid() const{
     return !data.empty();
 }
 
+const cv::Mat& Image::getMat() const{
+    return data;
+}
+
+void Image::toGrayscale(){
+    cv::cvtColor(data, data, cv::COLOR_BGR2GRAY);
+}
+
