@@ -1,4 +1,4 @@
-#include "include/Eye.hpp"
+#include "Eye.hpp"
 
 Eye::Eye() : pupilX(0.0f), pupilY(0.0f), open(true){}
 

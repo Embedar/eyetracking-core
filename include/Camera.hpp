@@ -12,8 +12,8 @@ class Camera{
         Image getFrame();
 
     private:
-        int devideId;
+        int deviceId;
         bool capturing;
         cv::VideoCapture capture;
 
-}
+};
